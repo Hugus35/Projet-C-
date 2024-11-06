@@ -11,7 +11,7 @@ $ xcode_select -p
 $ g++ --version pour vérifier l'installation.  
 
 Si vous êtes sur Linux :  
-sudo apt-get install g++  
+$ sudo apt-get install g++  
 
 ## Lancer le programme :
 Afin de faciliter la compilation, un fichier makefile se trouve dans le dossier du projet, permettant de lier les fichiers entre eux et de compiler le tout.
