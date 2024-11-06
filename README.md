@@ -1,7 +1,9 @@
+# Projet C++
 Le projet a pour but de simuler le cycle de vie d'un écosysteme composé de diverses bestioles au comportement et caractéristiques  différents.
 
 Le code permettant cette simulation a été implémenté à travers différents fichiers, utilisant le language C++.
 
+## Installation préliminaire :
 Avant d'exécuter le projet, il est nécessaire d'installer Xcode. 
 Pour cela, si vous êtes sur Mac, ouvrez un terminal et tapez :
 >> Xcode-select --install
@@ -11,6 +13,7 @@ Pour cela, si vous êtes sur Mac, ouvrez un terminal et tapez :
 Si vous êtes sur Linux :
 sudo apt-get install g++
 
+## Lancer le programme :
 Afin de faciliter la compilation, un fichier makefile se trouve dans le dossier du projet, permettant de lier les fichiers entre eux et de compiler le tout.
 Pour l'exécuter, il faut se placer dans le dossier dans lequel le projet est enregistré via un terminal.
 Ensuite, il suffit de lancer successivement les commandes suivantes :
@@ -23,7 +26,7 @@ Chaque espèce de bestiole a une couleur différente, ce qui permet de les diff�
 L'interface peut être quitté via la touche "echap", ou s'arrête lorsque la simulation est terminée.
 Le nombre de mort ayant survenu au cours de cette simulation est affiché dans le terminal.
 
-
+## Lancer les tests :
 Des tests ont également été livrés avec le projet (via le fichier test.cpp) afin de vérifier le bon fonctionnement de certaines fonctionnalités.
 Ces derniers sont visuels, ils permettent une première approche lors de la vérification de certaines fonctionnalités.
 
